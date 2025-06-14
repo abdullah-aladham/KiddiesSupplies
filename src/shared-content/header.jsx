@@ -1,11 +1,11 @@
-import { useState } from 'react'
+import Navbar from "../componenets/Navbar";
 
-
-function header(){
+function Header(){
     return(
         <>
         
-        
+       <Navbar/>
         </>
     )
 }
+export default Header;
